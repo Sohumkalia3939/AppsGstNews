@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".models.MainActivity3">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-149dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#FF0000"
+                android:text="Circular"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:text="GST Circulars/orders
+ from the official head office of CBEC and commissioner GST is available up to date for the notification purpose of GST India. The Goods and service tax is the biggest reform by the Indian government to tackle the complex tax rate structure that was followed until now. It has been assumed that the prevailing
+ was creating a cascading effect of the transactions thus making an unnecessary inflation in the economy.
+The central board of excise and customs has a major role in implementing the Goods and service tax as it has provided the resources and assistance through its majority of tax officials into training and development of tax plethora. There were numerous programs being conducted by the CBEC department to facilitate the proper functioning of GST into the market while the issues were resolved every time. The department is also active issuing any latest circular for the proper following of rules and regulations provided under the GST." />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="49dp"
+                android:textStyle="bold"
+                android:text="Check here the Latest CGST, IGST and UTGST Circulars by the CBEC Department"></TextView>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/row1">
+
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
